@@ -24,13 +24,19 @@ yarn
 amplify init
 ```
 
-4. Deploy the back end services
+4. Add Cognito Auth with federated identities using Facebook and Google OAuth credentials
+
+```sh
+amplify add auth
+```
+
+5. Deploy the back end services
 
 ```sh
 amplify push --y
 ```
 
-5. Run the app locally:
+6. Run the app locally:
 
 ```sh
 npm run dev
